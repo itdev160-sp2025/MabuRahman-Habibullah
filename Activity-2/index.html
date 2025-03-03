@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to MRH Restaurant</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #ff7f50;
+      color: white;
+      padding: 1rem 0;
+      text-align: center;
+    }
+    section {
+      padding: 20px;
+    }
+    h1, h2 {
+      color: #ff7f50;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      border-radius: 8px;
+    }
+    a {
+      color: #ff7f50;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    table {
+      width: 80%;
+      margin: 20px auto;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 10px;
+      text-align: left;
+      border: 1px solid #ddd;
+    }
+    th {
+      background-color: #ff7f50;
+      color: white;
+    }
+    tfoot {
+      font-weight: bold;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to MRH Restaurant</h1>
+    <p>A place where taste meets the soul!</p>
+  </header>
+
+  <section>
+    <h2>About Our Restaurant</h2>
+    <img src="images/ps5.jpeg" alt="A beautiful view of our restaurant">
+    <p>
+      At MRH Restaurant, we believe that food is not just a necessity; it's an experience. 
+      Our chefs are passionate about creating dishes that satisfy not only your hunger 
+      but also your cravings for culinary perfection. Whether you're here for a family dinner, 
+      a festive celebration, or a casual meal, we promise to make every bite worth it.
+    </p>
+  </section>
+
+  <section>
+    <h2>Contact Us</h2>
+    <p>We'd love to hear from you! If you have any queries or wish to book a table, feel free to get in touch with us.</p>
+    <p>Email us at: <a href="mailto:habibulm@gmatc.matc.edu">habibulm@gmatc.matc.edu</a></p>
+  </section>
+
+  <section>
+    <h2> Menu Highlights</h2>
+    <table id="simple-table">
+      <tr>
+        <th>Dish</th>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <td>Margherita Pizza</td>
+        <td>$12.99</td>
+      </tr>
+      <tr>
+        <td>Caesar Salad</td>
+        <td>$10.49</td>
+      </tr>
+      <tr>
+        <td>Grilled Salmon</td>
+        <td>$15.99</td>
+      </tr>
+      <tr>
+        <td>Chocolate Lava Cake</td>
+        <td>$8.99</td>
+      </tr>
+    </table>
+  </section>
+
+  <section>
+    <h2> Full Menu Categories</h2>
+    <table id="complex-table">
+      <thead>
+        <tr>
+          <th scope="col">Category</th>
+          <th scope="col">Dish</th>
+          <th scope="col">Description</th>
+          <th scope="col">Price</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td rowspan="2" scope="row">Appetizers</td>
+          <td>Spring Rolls</td>
+          <td>Crispy rolls stuffed with fresh vegetables.</td>
+          <td>$5.99</td>
+        </tr>
+        <tr>
+          <td>Garlic Bread</td>
+          <td>Freshly baked bread topped with garlic butter.</td>
+          <td>$4.49</td>
+        </tr>
+
+        <tr>
+          <td rowspan="3" scope="row">Main Course</td>
+          <td colspan="2">Grilled Chicken with Herb Sauce</td>
+          <td>$14.99</td>
+        </tr>
+        <tr>
+          <td colspan="2">Spaghetti Carbonara</td>
+          <td>$13.49</td>
+        </tr>
+        <tr>
+          <td>Beef Steak</td>
+          <td>Perfectly grilled steak served with mashed potatoes.</td>
+          <td>$19.99</td>
+        </tr>
+
+        <tr>
+          <td rowspan="2" scope="row">Desserts</td>
+          <td>Chocolate Lava Cake</td>
+          <td>Warm chocolate cake with molten chocolate inside.</td>
+          <td>$8.99</td>
+        </tr>
+        <tr>
+          <td>Tiramisu</td>
+          <td>Classic Italian dessert with layers of coffee-soaked sponge.</td>
+          <td>$7.99</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td colspan="4">We hope you enjoy your meal!</td>
+        </tr>
+      </tfoot>
+    </table>
+  </section>
+</body>
+</html>
